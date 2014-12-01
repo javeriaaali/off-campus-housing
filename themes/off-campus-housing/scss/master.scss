@@ -1,0 +1,94 @@
+
+// Settings, Config and Mixins
+@import "../../../division-project/scss/imports/_config.scss";
+@import "../../../division-project/scss/imports/_mixins.scss";
+//@import "imports/_settings";
+
+
+
+
+@import "foundation/components/grid";
+/*@import "foundation/components/accordion";*/
+/*@import "foundation/components/alert-boxes";*/
+@import "foundation/components/block-grid";
+@import "foundation/components/breadcrumbs";
+@import "foundation/components/button-groups";
+@import "foundation/components/buttons";
+/*@import "foundation/components/clearing";*/
+/*@import "foundation/components/dropdown";*/
+/*@import "foundation/components/dropdown-buttons";*/
+@import "foundation/components/flex-video";
+//@import "foundation/components/forms";
+@import "foundation/components/icon-bar";
+@import "foundation/components/inline-lists";
+/*@import "foundation/components/joyride";*/
+/*@import "foundation/components/keystrokes";*/
+/*@import "foundation/components/labels";*/
+/*@import "foundation/components/magellan";*/
+@import "foundation/components/orbit";
+@import "foundation/components/pagination";
+@import "foundation/components/panels";
+/*@import "foundation/components/pricing-tables";*/
+/*@import "foundation/components/progress-bars";*/
+/*@import "foundation/components/range-slider";*/
+/*@import "foundation/components/reveal";*/
+/// @import "foundation/components/split-buttons";
+//@import "foundation/components/sub-nav";
+/*@import "foundation/components/switches";*/
+@import "foundation/components/tables";
+/*@import "foundation/components/tabs";*/
+@import "foundation/components/thumbs";
+/*@import "foundation/components/tooltips";*/
+//@import "foundation/components/top-bar";
+//@import "foundation/components/type";
+@import "foundation/components/offcanvas";
+@import "foundation/components/visibility";
+
+
+@import "../../../division-project/scss/imports/_xlarge-block-grid.scss";
+
+
+/* Global
+-------------------------------------------*/
+
+@import "../../../division-project/scss/imports/_normalize.scss";
+@import "../../../division-project/scss/imports/_typography.scss";
+@import "../../../division-project/scss/imports/_global.scss";
+
+/* Elements
+-------------------------------------------*/
+@import "../../../division-project/scss/imports/_buttons.scss";
+@import "../../../division-project/scss/imports/_font.scss";
+//@import "../../../division-project/scss/imports/_forms.scss";
+@import "../../../division-project/scss/imports/_search.scss";
+/*@import "../../../division-project/scss/imports/_grid.scss";*/ 
+@import "../../../division-project/scss/imports/_grid-simple.scss";
+@import "../../../division-project/scss/imports/_tables.scss";
+
+/* Foundation Components
+-------------------------------------------*/
+
+/* Vendor
+-------------------------------------------*/ 
+@import "../../../division-project/scss/vendor/_flexslider.scss"; 
+/*@import "../../../division-project/scss/vendor/_foundation-forms.scss";*/
+
+
+
+/* Layout
+-------------------------------------------*/ 
+@import "../../../division-project/scss/layout/_home.scss";
+@import "../../../division-project/scss/layout/_nav.scss";
+@import "../../../division-project/scss/layout/_footer.scss";
+
+
+/* Site specific styles
+-------------------------------------------*/ 
+@import "../../../division-project/scss/layout/_site.scss";
+
+/* Print
+-------------------------------------------*/
+@import "../../../division-project/scss/imports/_print.scss";
+
+/* Theme specific styles */
+@import "imports/_theme.scss";
